@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/73c8cff8-9d4a-4b01-9def-28e0f0e8f8fe)
 # Projeto de App Full Stack de Receitas
 
 Este é um projeto de um **aplicativo de receitas** que tem como objetivo oferecer uma plataforma para os usuários compartilharem e descobrirem receitas de culinária. O app será desenvolvido de forma **full stack**, utilizando tecnologias como Node.js para o back-end, e um front-end interativo e intuitivo.
