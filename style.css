@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fefaf4;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background-color: white; /* Cor de fundo da barra (escura) */
+    color:#db7e19; /* Cor do texto na barra */
+    padding: 10px 20px; /* Espaçamento interno */
+    position: fixed; /* Fixa a barra no topo */
+    width: 100%; /* Barra ocupa toda a largura da tela */
+    top: 0; /* Fixa a barra no topo */
+    left: -40px; /* Alinha a barra à esquerda */
+    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+}
+.menu ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    display: flex; /* Organiza os itens em linha */
+    justify-content: flex-end; /* Alinha os itens à direita */
+    margin: 0; /* Remove a margem da lista */
+    padding: 0; /* Remove o padding da lista */
+  }
+  
+  .menu ul li {
+    margin-left: 20px; /* Espaço entre os itens do menu */
+  }
+  
+  .menu ul li a {
+    color:#db7e19; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho do texto */
+  }
+
+header {
+    display: flex;
+    flex-direction: column; /*um em cima do outro*/
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% da altura da tela */
+}
+header img {
+    width: 450px; /* tamanho da imagem (ajuste se quiser) */
+    margin-bottom: 5px; /* espaço entre a imagem e a caixinha */
+}
+.tela-login{
+    background-color: white; /* cor de fundo */
+    border-radius: 25px; /*bordas arredondadas*/
+    text-align: center; /* centralizar texto */
+    width: 300px;
+    padding: 20px; /* espaço interno */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* sombra leve */
+}
+.tela-login input {
+    padding: 15px;
+    color: #bdbeb9;
+    border-radius: 15px;
+    background-color: #fefaf4;
+    border-color: #fefaf4;
+    outline: none;
+    border: none;
+    width: 90%;
+}
+.tela-login h6 a {
+    margin-bottom: 0; /* espaço entre a imagem e a caixinha */
+}
+.tela-login button {
+    background-color: #db7e19;
+    color: white;
+    border-radius: 15px ;
+    padding: 15px;
+    width: 90%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.tela-login h6 a {
+    Color: black;
+    text-decoration: none; /* Remove o sublinhado */
+    float: right; /* Alinha à direita */
+}
+
+.tela-login p a{
+    color: black;
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+}
+.tela-login p a strong{
+    color: #db7e19;
+}
